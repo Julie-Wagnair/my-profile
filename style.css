@@ -1,0 +1,105 @@
+/* Colors and fonts */
+body {
+	background-color: #f1f6f9
+	color: #646464;
+	font-family: helvetica;
+	font-weight: 100;
+}
+
+h1 {
+	color: #14274e
+	font-weight: 300;
+	font-family: agency FB;
+	letter-spacing: 8px;
+}
+
+h2 {
+	color: #394867
+	font-weight: 200;
+	font-family: agency FB;
+}
+
+a {
+	text-decoration: none;
+	color: #bb2205;
+}
+
+a:hover {
+	color: #191c4c;
+}
+
+
+/* Custom design with class */
+
+.img {
+	width: 50px;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+    text-align: center;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+    margin: 20px;
+	box-shadow: 0px 10px 30px rgba(187,34,5,0.2);/* #bb2201rdba(187,34,5,0.2); */
+	border-radius: 5px;
+	
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.button {
+    display: inline-block;
+    background-color: #14274e;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.button:hover {
+    display: inline-block;
+    background-color: #bb2201;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+
+
+
+
+
+
+
